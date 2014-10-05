@@ -22,7 +22,7 @@
         <link>{{ site.url }}{{ post.url }}</link>
         <pubDate>{{ post.date | date: time_format }}</pubDate>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <description>{{ post.content | replace:'="//','="http//' | replace:'href="/','href="http://chaidarun.com/' | replace:'src="/','src="http://chaidarun.com/' | replace:'="http//','="//' | xml_escape }}</description>
+        <description>{{ post.content | replace:'="//','="http//' | replace:'href="/','href="http://data88.github.io/' | replace:'src="/','src="http://data88.github.io/' | replace:'="http//','="//' | xml_escape }}</description>
       </item>
       {% endif %}
       {% assign addedPosts = addedPosts + 1 %}
