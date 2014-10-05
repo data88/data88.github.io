@@ -27,7 +27,7 @@ Redirect 301 /resume /files/ArtChaidarun-WebResume.pdf
 RewriteEngine On
 
 RewriteCond %{HTTP_HOST} ^[^\.]+\.chaidarun\.com$ [NC]
-RewriteRule ^(.*)$ http://chaidarun.com/$1 [R=301,L]
+RewriteRule ^(.*)$ http://data88.github.io/$1 [R=301,L]
 
 RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301]
 Options -Indexes
